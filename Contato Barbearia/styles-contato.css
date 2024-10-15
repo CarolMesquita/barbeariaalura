@@ -1,0 +1,158 @@
+.container__primario{
+    background-color: #cccccc;
+    padding: 20px 0;
+   
+    }
+
+.container__container{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.container__lista{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+
+.listas__lista{
+    
+    display: inline;
+    margin: 0 0 0 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold; 
+}
+
+.listas__lista:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.container__lista-produtos{
+    margin: 0 auto;
+    width: 940px;
+    padding: 50px 0;
+}
+
+.lista__produtos{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.lista__produtos:hover{
+    border-color:  #c78c19;
+}
+
+.lista__produtos:active{
+    border-color: green;
+}
+
+.lista__produtos:hover h2{
+    font-size: 35px;
+    color: #c78c19;
+}
+
+.texto__lista{
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.descricao__produtos{
+    font-size: 15px;
+    font-style: italic;
+    color: #000000;
+}
+
+.valor__produtos{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    margin-top: 10px;
+}
+
+.container__rodape{
+    text-align: center;
+    background: url(img/bg.jpg);
+    font-size: 18px;
+    padding: 40px 0;
+}
+
+.rodape__copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input__padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.botao__envio{
+    width:40%;
+    padding: 15px 0;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao__envio:hover{
+    background: darkorange;
+    transform: scale(1.2);
+
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+
+}
